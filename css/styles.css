@@ -1,0 +1,277 @@
+/* =====GLOBAL RESET===== */
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-style: normal;
+  display: inline-block;
+}
+
+button {
+  cursor: pointer;
+  color: inherit;
+  background: transparent;
+  font: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* =====GLOBAL STYLES===== */
+body {
+  color: #434455;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  color: #2e2f42;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+/* ---------HEADER---------- */
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  text-transform: uppercase;
+  color: #4d5ae5;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-family: "Raleway", sans-serif;
+}
+
+.nav-list {
+  display: flex;
+  margin-left: 76px;
+  column-gap: 40px;
+}
+
+.nav .studio {
+  color: #2e2f42;
+}
+
+.nav-item {
+}
+
+.nav-link {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.address {
+}
+.address-list {
+  display: flex;
+  column-gap: 40px;
+}
+
+.address-item {
+}
+
+.address-link {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
+}
+
+/* -------------HERO------------ */
+
+.hero {
+  background-color: #2e2f42;
+  background-image: url();
+}
+
+.hero .container {
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+.hero-title {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  max-width: 496px;
+  margin: 0 auto 48px;
+}
+
+.hero-btn {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  margin: 0 auto;
+  border-radius: 4px;
+  border-color: transparent;
+  display: flex;
+  padding: 16px 32px;
+}
+
+/* --------------FEATURES---------------- */
+
+.features {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.features .container {
+}
+.features-title {
+}
+.features-list {
+  display: flex;
+  column-gap: 24px;
+}
+.features-item {
+  width: calc((100% - 3 * 24px) / 4);
+}
+.features-list-title {
+}
+.features-list-text {
+}
+
+/* ----------------TEAM------------------ */
+
+.team {
+  background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.team-list {
+  display: flex;
+  column-gap: 24px;
+}
+
+.team-item {
+  background-color: #ffffff;
+  width: calc((100% - 3 * 24px) / 4);
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px;
+}
+
+.team-list-title {
+  text-align: center;
+}
+
+.team-list-text {
+  text-align: center;
+}
+
+/* -----------------PORTFOLIO------------ */
+
+.portfolio {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.portfolio-title {
+  padding-bottom: 72px;
+}
+
+.portfolio-list {
+  display: flex;
+  gap: 48px 24px;
+  flex-wrap: wrap;
+}
+
+.portfolio-item {
+  border: 1px solid #e7e9fc;
+  width: calc((100% - 2 * 24px) / 3);
+}
+
+.pruducts-card-wrap {
+  padding: 32px 0 32px 16px;
+}
+
+.portfolio-list-title {
+  margin-bottom: 8px;
+}
+
+.portfolio-list-text {
+}
+
+/* ------------------FOOTER-------------- */
+
+.footer {
+  background-color: #2e2f42;
+  margin-top: 60px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer .container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer .studio {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  color: #f4f4fd;
+  max-width: 264px;
+}
